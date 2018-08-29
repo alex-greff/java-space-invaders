@@ -5,7 +5,7 @@ A simple text-based retro arcade-like game coded entirely from scratch.
 ### Playing the Game
 
 * Download and extract [SpaceInvadersAlexG.zip](SpaceInvadersAlexG.zip).
-* Run the jar file.
+* Run the jar file and enjoy.
 
 ### Opening the Project
 * This repository can be imported into an any Java supported IDE such as Eclipse or IntelliJ.
@@ -16,9 +16,7 @@ The goal of the game is to survive and shoot down as many enemies as possible in
 ## Game Mechanics
 * **Health Pack** - Shooting/colliding with one of these replenishes 1 health-point to yourself.
 ### Enemies
-There are three classes of enemies each will varying amounts of health. Colliding with an enemy results in a net health loss to your ship of its remaining health before impact. 
-
-So colliding with an enemy with a remaining 3 health would result in your ship loosing 3 health-points.
+There are three classes of enemies each will varying amounts of health. Shooting an enemy deals one health point of damage to it. Colliding with an enemy results in a net health loss to your ship of its remaining health before impact. So colliding with an enemy with a remaining 3 health would result in your ship loosing 3 health-points.
 
 The following enemy classes are:
 
